@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+.header-container .header-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-body {
+  height: 600px;
+}
+.header-body p {
+  font-size: 47px;
+  width: 850px;
+  color: white;
+}
+.header-body span {
+  height: 60px;
+  width: 850px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 9px;
+}
+.header-body span ul {
+  list-style: none;
+  background-color: rgb(200, 200, 200);
+  border-radius: 6px;
+  margin-left: 5px;
+}
+.header-body span ul li {
+  display: inline-block;
+  position: relative;
+}
+.header-body span ul li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  gap: 3px;
+}
+.header-body span ul li ul.header-body-dropdown li {
+  display: block;
+}
+.header-body span ul li ul.header-body-dropdown {
+  width: 120px;
+  background-color: white;
+  position: absolute;
+  margin-top: -100px;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: none;
+}
+.header-body ul li a:hover {
+  background-color: rgb(209, 217, 223);
+}
+.header-body ul li:hover ul.header-body-dropdown {
+  display: block;
+  display: flex;
+  align-items: flex-start;
+}
+.search-bar {
+  margin-left: 5px;
+  height: 50px;
+  width: 630px;
+  font-size: 21px;
+  color: grey;
+  border: none;
+  background-color: transparent;
+}
+.search-icon {
+  margin-left: 10px;
+  color: grey;
+  height: 50px;
+  width: 30px;
+  background-color: transparent;
+}
+.header-body .trending {
+  height: 40px;
+  width: 600px;
+  font-size: 15px;
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: -250px;
+}
+.menu-toggle {
+  margin-left: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
